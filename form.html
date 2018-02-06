@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login form</title>
+</head>
+<body>
+<h1>Registration form</h1>
+<form action="#">
+First name:<input type="text" ng-model="first name" required><br><br>
+Last name:<input type="text" ng-model="last name"required><br><br>
+<h3>{{firstname}}{{lastname}}</h3>
+Gender:<br><br>
+male:<input type="radio" ng-model="male"><br>
+female:<input type="radio" ng-model="female"<br><br>
+<h3>{{male}}{{female}}</h3>
+Year:<br><br>
+First Year:<input type="checkbox" ng-model="firstyear"checked><br>
+Second Year:<input type="checkbox" ng-model="secondyear"checked><br>
+Third Year:<input type="checkbox" ng-model="thirdyear"checked><br><br>
+<h3>{{firstyear}}{{secondyear}}{{thirdyear}}</h3>
+Department:
+CSE:<input type="radio" ng-model="cse"><br>
+ECE:<input type="radio" ng-model="ece"><br>
+IT:<input type="radio" ng-model="it"><br><br>
+<h3>{{cse}}{{ece}}{{it}}</h3>
+<input type="submit" value="login">
+<script src="angular.js.min">
+</form>
+</body>
